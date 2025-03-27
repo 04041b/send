@@ -29,5 +29,5 @@ jobs:
           context: .
           push: true
           platforms: linux/amd64
-          # tags: ${{ steps.meta.outputs.tags }}
+          tags: p2p-send-timvisee:$(date +%s)
           # labels: ${{ steps.meta.outputs.labels }}
